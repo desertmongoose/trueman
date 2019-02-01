@@ -6,21 +6,27 @@
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 33.574vw;
+    width: -webkit-calc(100vw - 15px);
+    width: calc(100vw - 15px);
+    height: -webkit-calc((100vw - 15px) / 2493 * 837);
+    height: calc((100vw - 15px) / 2493 * 837);
     overflow: hidden;
 }
 .slideshow .slider {
-    width: 100vw;
-    height: 33.574vw;
+    width: -webkit-calc(100vw - 15px);
+    width: calc(100vw - 15px);
+    height: -webkit-calc((100vw - 15px) / 2493 * 837);
+    height: calc((100vw - 15px) / 2493 * 837);
     z-index: 2;
 }
 .slideshow .slider * {
     outline: none;
 }
 .slideshow .slider .item {
-    width: 100vw;
-    height: 33.574vw;
+    width: -webkit-calc(100vw - 15px);
+    width: calc(100vw - 15px);
+    height: -webkit-calc((100vw - 15px) / 2493 * 837);
+    height: calc((100vw - 15px) / 2493 * 837);
     position: relative;
     overflow: hidden;
     border: none;
@@ -29,8 +35,8 @@
     display: none;
 }
 .slideshow .slider .item img {
-    min-width: 101%;
-    min-height: 101%;
+    max-width: 100%;
+    max-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,33 +44,38 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-.slideshow .slick-dots {
-    position: fixed;
+.split-slideshow-dots {
+    position: relative;
+    height: -webkit-calc((100vw - 15px) / 2493 * 837);
+    height: calc((100vw - 15px) / 2493 * 837);
+}
+.split-slideshow-dots .slick-dots {
+    position: absolute;
     z-index: 100;
     width: 40px;
     height: auto;
     bottom: auto;
     top: 50%;
-    right: 0;
+    right: -webkit-calc(50% - 25px);
+    right: calc(50% - 25px);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    left: auto;
     color: #fff;
     display: block;
 }
-.slideshow .slick-dots li {
+.split-slideshow-dots .slick-dots li {
     display: block;
     width: 100%;
     height: auto;
 }
-.slideshow .slick-dots li button {
+.split-slideshow-dots .slick-dots li button {
     position: relative;
     width: 20px;
     height: 15px;
     text-align: center;
 }
-.slideshow .slick-dots li button:before {
+.split-slideshow-dots .slick-dots li button:before {
     content: '';
     background: #fff;
     color: #fff;
@@ -84,9 +95,10 @@
     transition: all 0.3s ease-in-out;
     opacity: 0.6;
 }
-.slideshow .slick-dots li.slick-active button:before {
+.split-slideshow-dots .slick-dots li.slick-active button:before {
     width: 40px;
     opacity: 1;
+    right: -10px;
 }
 .slideshow.slideshow-right {
     left: 0;

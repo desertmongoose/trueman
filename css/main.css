@@ -92,7 +92,7 @@ h2{
 }
 .ramka > h2{
     color: #fff;
-    background-color: #343334;/*#2e2c2d*/
+    background-color: #2b2a29;
     font-size: 32px;
     padding: 0 15px;
     margin: 0;
@@ -323,7 +323,7 @@ h2{
 }
 #desk2 .ramka > h2{
     color: #fff;
-    background-color: #343334;
+    background-color: #2b2a29;
     font-size: 32px;
     padding: 0 15px;
     margin: 0;
@@ -398,7 +398,7 @@ h2{
 }
 #desk4 .ramka > h2{
     color: #fff;
-    background-color: #343334;
+    background-color: #2b2a29;
     font-size: 32px;
     padding: 0 15px;
     margin: 0;
@@ -459,16 +459,10 @@ h3{
 .cen_item img{
     margin: 0 auto;
 }
-.row#cen .cen_item:nth-child(1){
-    padding-top: 4px;
-}
 .row#cen .cen_item>div{
     font-family: 'OpenSansLight';
     font-size: 22px;
     padding-top: 20px;
-}
-.row#cen .cen_item#cen_item_one>div{
-    padding-top: 25px;
 }
 
 .bluebut a, button.bluebut{
@@ -570,18 +564,19 @@ h3{
     line-height: 11px;
 }
 
-#desk7 .row{
+#desk7 {
     position: relative;
-    top: -376px;
-    /*top: 0;*/
-    height: 636px;
+    top: -200px;
+    height: -webkit-calc((100vw - 15px) / 2493 * 837 + 20px);
+    height: calc((100vw - 15px) / 2493 * 837 + 20px);
+    padding: 0;
 }
-/*
-.split-slideshow{
-    position: relative;
+@media screen and (max-width: 1440px) {
+    #desk7 {
+        height: -webkit-calc((100vw - 15px) / 2493 * 837 + 170px);
+        height: calc((100vw - 15px) / 2493 * 837 + 170px);
+    }
 }
-
-*/
 
 
 #desk8{
@@ -868,14 +863,28 @@ h3{
 }
 #desk15 table{
     width: 100%;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     margin: 35px auto;
+    overflow: hidden;
 }
 #desk15 table thead{
     background-color: #575756;
     color: #fff;
 }
+
+#desk15 table tr:first-child td {
+    border-top: none;
+}
+
+#desk15 table tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+#desk15 table tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
 #desk15 table td{
     border: 2px dotted #c9c9c9;
     padding: 15px 56px;
@@ -1060,6 +1069,7 @@ h3{
     position: absolute;
     top: 10px;
     right: 10px;
+    z-index: -1;
 }
 .fotoInText{
     max-width: 100%;
@@ -1301,6 +1311,7 @@ button.bluebut{
     */
     #desk8 {
         top: -370px;
+        margin-bottom: -150px;
     }
 }
 
@@ -1519,16 +1530,7 @@ button.bluebut{
     #desk5 .flexcon .flexitem{
         width: 50%;
     }
-    /*
-    .slideshow {
-        height: 440px
-    }
-    */
-    /*
-    #desk7{
-        height: 440px;
-    }
-    */
+
     #desk8 .bluebut a{
         margin-top: 0;
     }

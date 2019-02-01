@@ -250,7 +250,7 @@ return false;
 						<div class="col-xs-12 col-sm-8">
 							<img src="img/png/desk2/people.png" class="img-responsive"><!--фотка с табличками абсолютно позиционируется-->
 							<h2>
-								Разве барбершоп - это только про деньги?
+								Разве барбершоп &mdash; это только про деньги?
 							</h2>
 						</div>
 						<div class="hidden-xs col-sm-2"></div>
@@ -529,76 +529,27 @@ return false;
 
 		<div class="clearfix"></div>
 
+        <div class="container-fluid hidden-xs" id="desk7">
+            <div class="split-slideshow">
+                <div class="split-slideshow-dots"></div>
+                <div class="slideshow">
+                    <div class="slider">
+                        <div class="item">
+                            <img src="http://eliteweb.by/trueman/img/png/desk5/slide5-1.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="http://eliteweb.by/trueman/img/png/desk5/slide5-2.jpg" />
+                        </div>
+                        <div class="item">
+                            <img src="http://eliteweb.by/trueman/img/png/desk5/slide5-3.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-		<!--slider split-slick begin
-		<div class="container-fluid" id="desk-split">
-	        <div class="container">
-	            <div class="row">
-	                <div class="split-slideshow">
-	                    <div class="slideshow">
-	                        <div class="slider">
-	                            <div class="item">
-	                                <img src="http://eliteweb.by/trueman/img/png/desk5/slide5-1.jpg" />
-	                            </div>
-	                            <div class="item">
-	                                <img src="http://eliteweb.by/trueman/img/png/desk5/slide5-2.jpg"/>
-	                            </div>
-	                            <div class="item">
-	                                <img src="http://eliteweb.by/trueman/img/png/desk5/slide5-3.jpg"/>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-		-->
-		<!--slider split-slick end-->
-
-
-
-		<div class="container-fluid hidden-xs" id="desk7">			
-			<div class="row">
-				<!--owl-carousel-->
-				<div class="owl-carousel owl-theme" id="carouselFour">
-					<div>
-						<img src="img/png/desk5/slide5-1.jpg" class="img-responsive"/>
-					</div>
-					<div>
-						<img src="img/png/desk5/slide5-2.jpg" class="img-responsive"/>
-					</div>
-					<div>
-						<img src="img/png/desk5/slide5-3.jpg" class="img-responsive"/>
-					</div>
-				</div>
-				<!--owl-carousel-->
-			<!--
-				<div class="split-slideshow">
-					<div class="slideshow">
-						<div class="slider">
-							<div class="item">
-								<img src="img/png/desk5/slide5-1.jpg" class="img-responsive"/>
-							</div>
-							<div class="item">
-								<img src="img/png/desk5/slide5-2.jpg" class="img-responsive"/>
-							</div>
-							<div class="item">
-								<img src="img/png/desk5/slide5-3.jpg" class="img-responsive"/>
-							</div>
-						</div>
-					</div>
-					<div class="slideshow-text">
-						<div class="item"></div>
-						<div class="item"></div>
-						<div class="item"></div>
-					</div>
-				</div>
-			-->
-			</div>
-		</div>
-		<!--slider split-slick end-->
 		<div class="clearfix"></div>
+
 		<div class="container-fluid" id="desk8">
 			<div class="container col-xs-12 hidden-sm hidden-md hidden-lg">
 				<!--owl-carousel-->
@@ -755,19 +706,22 @@ return false;
 		<!--slider split-slick begin-->
 		<div class="container-fluid" id="desk101">
 			<div class="hidden-xs">
-				<!--owl-carousel-->
-				<div class="owl-carousel owl-theme" id="carouselTwo">
-					<div>
-						<img src="img/png/desk6/slide6-1.png" class="img-responsive"/>
-					</div>
-					<div>
-						<img src="img/png/desk6/slide6-2.png" class="img-responsive"/>
-					</div>
-					<div>
-						<img src="img/png/desk6/slide6-3.png" class="img-responsive"/>
-					</div>
-				</div>
-				<!--owl-carousel-->
+                <div class="split-slideshow">
+                    <div class="split-slideshow-dots"></div>
+                    <div class="slideshow">
+                        <div class="slider">
+                            <div class="item">
+                                <img src="img/png/desk6/slide6-1.png" class="img-responsive" />
+                            </div>
+                            <div class="item">
+                                <img src="img/png/desk6/slide6-2.png" class="img-responsive" />
+                            </div>
+                            <div class="item">
+                                <img src="img/png/desk6/slide6-3.png" class="img-responsive" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 			<div class="container col-xs-12 hidden-sm hidden-md hidden-lg">
 				<!--owl-carousel-->
@@ -1099,7 +1053,7 @@ return false;
 					<div class="col-xs-12 cav">
 						<div>
 							&mdash;&nbsp;Звучит убедительно.<br>
-							Но все же, какие нужны инвестиции и сколько можно зарабатывать?
+							Но всё же, какие нужны инвестиции и сколько можно зарабатывать?
 						</div>							
 					</div>					
 				</div>
@@ -1133,8 +1087,8 @@ return false;
 								</tr>
 								<tr>
 									<td colspan="2">Инвестиции</td>
-									<td>~50&nbsp;тыс&nbsp;$</td>
-									<td>~70&nbsp;тыс&nbsp;$</td>
+									<td>~50&nbsp;тыс.&nbsp;$</td>
+									<td>~70&nbsp;тыс.&nbsp;$</td>
 								</tr>
 								<tr>
 									<td colspan="2">Окупаемость</td>
@@ -1174,8 +1128,8 @@ return false;
 								<td colspan="2" class="zag_minitable">Инвестиции</td>
 							</tr>
 							<tr>
-								<td>~50&nbsp;тыс&nbsp;$</td>
-								<td>~70&nbsp;тыс&nbsp;$</td>
+								<td>~50&nbsp;тыс.&nbsp;$</td>
+								<td>~70&nbsp;тыс.&nbsp;$</td>
 							</tr>
 							<tr>
 								<td colspan="2" class="zag_minitable">Окупаемость</td>
@@ -1221,7 +1175,7 @@ return false;
 						<div class="col-xs-12 col-sm-10">
 							<div class="seeyuo">
 								<p>
-									Посмотрите, как развивается барбершоп <br>
+									Посмотрите, как развивается барбершоп<br>
 									по адресу г. Минск, пр. Независимости, 46
 								</p>	
 								<img src="img/png/desk10/grafik.png" class="img-responsive"> <!--график-->						
@@ -1268,7 +1222,7 @@ return false;
 						<div class="col-xs-10 col-sm-6">
 							<div class="ramka">
 								<h2>
-									Как открыть <br>
+									Как открыть<br>
 									ваш барбершоп Trueman
 								</h2>
 							</div>						
@@ -1477,17 +1431,17 @@ return false;
 						<img src="img/png/desk13/yaroslav.png" class="hidden-sm hidden-md hidden-lg fotoInText"><!--фото Ярослава-->
 						<p class="underfoto hidden-sm hidden-md hidden-lg">Ярослав Соболев</p>
 						<p>
-							Мы обошли все барбершопы Минска…<br>
-							…и в каждом смотрели, чего нам не хватает <br>
-							(а кое-где делали предложения о работе). 
+							Мы обошли все барбершопы Минска&hellip;<br>
+                            &hellip;и в каждом смотрели, чего нам не хватает<br>
+							(а кое-где делали предложения о работе).
 						</p>
 						<p>
-							Иногда мы уходили с ощущением обмана: <br>
+							Иногда мы уходили с ощущением обмана:<br>
 							оставил за стрижку головы и бороды 60 рублей, 
 							постригли хорошо, но как будто переплатил. 
-							Приходишь, а тебе говорят как в обычной 
-							парикмахерской: «Здравствуйте, вы записывались?». 
-							Никакого радушия. <br>
+							Приходишь, а тебе говорят, как в обычной
+							парикмахерской: «Здравствуйте, вы записывались?»
+							Никакого радушия.<br>
 							Тот же чай/кофе предлагали либо только после запроса, 
 							либо не предлагали вовсе.
 						</p>
@@ -1786,27 +1740,6 @@ $(function(){
             });
 });
 	$(document).ready(function() {
-            $('#carouselTwo').owlCarousel({
-                loop:true, //Зацикливаем слайдер
-                margin:50, //Отступ от элемента справа в 50px
-                nav:false, //Отключение навигации
-                autoplay:true, //Автозапуск слайдера
-                smartSpeed:1000, //Время движения слайда
-                autoplayTimeout:5000, //Время смены слайда
-                responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:1
-                    },
-                    1000:{
-                        items:1
-                    }
-                }
-            });
-});
-	$(document).ready(function() {
             $('#carouselThree').owlCarousel({
                 loop:true, //Зацикливаем слайдер
                 margin:50, //Отступ от элемента справа в 50px
@@ -1814,27 +1747,6 @@ $(function(){
                 autoplay:true, //Автозапуск слайдера
                 smartSpeed:1000, //Время движения слайда
                 autoplayTimeout:5000, //Время смены слайда
-                responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:1
-                    },
-                    1000:{
-                        items:1
-                    }
-                }
-            });
-});
-	$(document).ready(function() {
-            $('#carouselFour').owlCarousel({
-                loop:true, //Зацикливаем слайдер
-                margin:50, //Отступ от элемента справа в 50px
-                nav:false, //Отключение навигации
-                autoplay:true, //Автозапуск слайдера
-                smartSpeed:1000, //Время движения слайда
-                autoplayTimeout:10000, //Время смены слайда
                 responsive:{ //Адаптивность. Кол-во выводимых элементов при определенной ширине.
                     0:{
                         items:1
@@ -1897,35 +1809,13 @@ $(function(){
   $("#phone4").mask("+375 (99) 999-99-99");
 });
 
-$(".slider").slick({
+/*$(".slider").slick({
 
   // normal options...
   infinite: false,
+  appendDots: 'split-slideshow-dots'
 
-  // the magic
-  responsive: [{
-
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        infinite: true
-      }
-
-    }, {
-
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        dots: true
-      }
-
-    }, {
-
-      breakpoint: 300,
-      settings: "unslick" // destroys slick
-
-    }]
-});
+});*/
 </script>
 </body>
 </html>
